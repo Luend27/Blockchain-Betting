@@ -10,21 +10,21 @@ import * as Contracts from "./index.js";
 
 declare module "@nomicfoundation/hardhat-ethers/types" {
   interface HardhatEthersHelpers extends HardhatEthersHelpersBase {
-  getContractFactory(name: 'BettingDAO', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.BettingDAO__factory>
+  getContractFactory(name: 'BettingToken', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.BettingToken__factory>
 getContractFactory(name: 'WorldCupBetting', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.WorldCupBetting__factory>
-getContractFactory(name: 'BettingToken', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.BettingToken__factory>
+getContractFactory(name: 'BettingDAO', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.BettingDAO__factory>
 
-  getContractAt(name: 'BettingDAO', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.BettingDAO>
+  getContractAt(name: 'BettingToken', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.BettingToken>
 getContractAt(name: 'WorldCupBetting', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.WorldCupBetting>
-getContractAt(name: 'BettingToken', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.BettingToken>
+getContractAt(name: 'BettingDAO', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.BettingDAO>
 
-  deployContract(name: 'BettingDAO', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.BettingDAO>
+  deployContract(name: 'BettingToken', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.BettingToken>
 deployContract(name: 'WorldCupBetting', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.WorldCupBetting>
-deployContract(name: 'BettingToken', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.BettingToken>
+deployContract(name: 'BettingDAO', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.BettingDAO>
 
-  deployContract(name: 'BettingDAO', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.BettingDAO>
+  deployContract(name: 'BettingToken', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.BettingToken>
 deployContract(name: 'WorldCupBetting', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.WorldCupBetting>
-deployContract(name: 'BettingToken', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.BettingToken>
+deployContract(name: 'BettingDAO', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.BettingDAO>
 
     // default types
     getContractFactory(
