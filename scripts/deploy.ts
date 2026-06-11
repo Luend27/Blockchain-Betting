@@ -22,9 +22,8 @@ import { network } from "hardhat";
 import { ethers } from "ethers";
 import "dotenv/config";
 
-// HARDHAT_NETWORK é definido pelo Hardhat quando --network é passado.
-// Padrão "hardhat" quando não especificado.
-const NETWORK = process.env.HARDHAT_NETWORK ?? "hardhat";
+// hre.network.name é a forma correta de detectar a rede no Hardhat 3.
+const NETWORK = hre.network.name;
 
 const COMMISSION_BPS  = 300n;
 const VOTING_DURATION = 3n * 24n * 3600n; // 3 dias
