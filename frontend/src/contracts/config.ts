@@ -1,8 +1,8 @@
 // ─── Endereços na Sepolia ────────────────────────────────────────────────────
 export const CONTRACTS = {
-  BETTING: "0xB52F99A2e0eDE6131a617894729F914DdC26e740",
-  TOKEN:   "0xB43488ad1A13299CC7768562c98Da1690DdDB891",
-  DAO:     "0x511B8E18eE121066e808219e70429e5322e4be16",
+  BETTING: "0xc8b773d45ccED3de63D276842A288810141001fe",
+  TOKEN:   "0xa6EaE22478F2f5d395E86ece25C5D538b855c3b3",
+  DAO:     "0x5fAd49F5e718f3df9d8eb0087113DEd5f0e7E220",
 } as const;
 
 export const SEPOLIA_CHAIN_ID = 11155111n;
