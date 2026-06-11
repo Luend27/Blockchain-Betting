@@ -5,6 +5,6 @@ export type { BettingDAO } from './BettingDAO.js';
 export type { BettingToken } from './BettingToken.js';
 export type { WorldCupBetting } from './WorldCupBetting.js';
 export * as factories from './factories/index.js';
-export { BettingDAO__factory } from './factories/BettingDAO__factory.js';
-export { WorldCupBetting__factory } from './factories/WorldCupBetting__factory.js';
 export { BettingToken__factory } from './factories/BettingToken__factory.js';
+export { WorldCupBetting__factory } from './factories/WorldCupBetting__factory.js';
+export { BettingDAO__factory } from './factories/BettingDAO__factory.js';
