@@ -25,7 +25,7 @@ export default function App() {
   }, [wallet.signer, wallet.address]);
 
   return (
-    <div className="min-h-screen bg-gray-950">
+    <div className="min-h-screen bg-[#0d1411]">
       <Header
         {...wallet}
         activeTab={activeTab}
